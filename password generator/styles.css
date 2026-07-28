@@ -1,0 +1,11 @@
+.body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.input{
+    margin-top: 10px;
+}
+
+#password-btn{
+    background-color: rgb(244, 153, 198);
+}
