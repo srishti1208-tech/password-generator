@@ -1,5 +1,5 @@
 let password = document.getElementById("password-btn")
-
+let input = document.getElementById("input")
 password.addEventListener('click',function(){
     const characters =
       "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
@@ -15,5 +15,6 @@ password.addEventListener('click',function(){
          generatepassword += characters[randomNumber]
         
     }
+    input.value = generatepassword
      console.log(generatepassword)
-})
+});
