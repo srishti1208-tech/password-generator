@@ -1,9 +1,17 @@
+body{
+    background-color: rgba(17, 34, 71, 0.844);
+}
+
 .body{
     /*background-image: linear-gradient(direction, color-stop1, color-stop2, ...);*/
     background-image: linear-gradient(to right, rgb(133, 21, 133), rgba(0, 0, 255, 0.81));
     /* background-color: antiquewhite; */
     text-align: center;
+    background-color: #6c686c;
     padding: 30px;
+    margin-top: 200px;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 #input{
     margin-top: 10px;
